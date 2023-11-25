@@ -63,7 +63,7 @@ export default function Layout({
                     content='width=device-width, initial-scale=1.0'
                 />
                 <meta
-                    property='og:title'
+                    name='title'
                     content={
                         active
                             .toLowerCase()
@@ -73,20 +73,21 @@ export default function Layout({
                             ) + ' | CASTL'
                     }
                 />
-                <meta property='og:type' content='website' />
+                <meta name='type' content='website' />
                 <meta
-                    property='og:url'
+                    name='url'
                     content='https://codingacademystl.org'
                 />
                 <meta
-                    property='og:image'
+                    name='image'
                     content='https://codingacademystl.org/img/logo.png'
                 />
                 <meta
-                    property='og:description'
+                    name='description'
                     content='Teaching students with all levels of programming experience through engaging, effective, and hands-on lessons for free'
                 />
                 <meta name='theme-color' content='#334155' />
+                <link rel="canonical" href="https://codingacademystl.org" />
             </Head>
             <div className={cx({ dark: isDarkMode }, 'transition-colors')}>
                 <div
