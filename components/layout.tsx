@@ -54,7 +54,7 @@ export default function Layout({
                         .toLowerCase()
                         .split(' ')
                         .map((w) => w.charAt(0).toUpperCase() + w.slice(1)) +
-                        ' | CASTL'}
+                        ' | Coding Academy St. Louis'}
                 </title>
 
                 {/* metadata */}
@@ -70,7 +70,7 @@ export default function Layout({
                             .split(' ')
                             .map(
                                 (w) => w.charAt(0).toUpperCase() + w.slice(1)
-                            ) + ' | CASTL'
+                            ) + ' | Coding Academy St. Louis'
                     }
                 />
                 <meta name='type' content='website' />
